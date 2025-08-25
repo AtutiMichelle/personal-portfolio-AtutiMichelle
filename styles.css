@@ -28,6 +28,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   background-color: #555;
+  text-decoration: underline;
 }
 
 header, section {
@@ -61,3 +62,23 @@ form button {
 form button:hover {
   background-color: #555;
 }
+
+/* About section layout */
+.about-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
