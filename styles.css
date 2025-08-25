@@ -79,3 +79,22 @@ form button:hover {
   object-fit: cover;
   border: 3px solid #333;
 }
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+footer a {
+  color: #ddd;
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
